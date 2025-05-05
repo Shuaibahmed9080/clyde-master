@@ -1548,7 +1548,9 @@ pre {
   .table-responsive-sm {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    overflow-x: hidden; /* to prevent horizontal scroll only */
+    overflow-y: auto;   /* allows vertical scrolling */
     -webkit-overflow-scrolling: touch; }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
