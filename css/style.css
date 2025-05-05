@@ -57,7 +57,12 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  overflow-x: hidden;
+  overflow-y: auto;
+
+
+ }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -1548,9 +1553,7 @@ pre {
   .table-responsive-sm {
     display: block;
     width: 100%;
-    /* overflow-x: auto; */
-    overflow-x: hidden; /* to prevent horizontal scroll only */
-    overflow-y: auto;   /* allows vertical scrolling */
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch; }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
