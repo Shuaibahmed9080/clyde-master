@@ -1550,11 +1550,11 @@ pre {
     background-color: rgba(255, 255, 255, 0.075); }
 
 @media (max-width: 575.98px) {
-  body {
+  /* body {
     overflow-x: hidden;
     overflow-y: auto;
     background-color: red;
-  }
+  } */
   
   .table-responsive-sm {
     display: block;
